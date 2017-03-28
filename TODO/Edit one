@@ -1,0 +1,41 @@
+module.exports = {
+
+database: {
+
+uri: (AsignDb)://localhostProControl },
+
+ProControl  : {
+
+clientID: '',
+
+clientSecret: '',
+
+redirectPath: '/',
+
+enforceAuthDialog: false,
+
+scopes: {
+
+user: ['user-top-read'],
+
+server: [‘KNX-modify-private']
+
+},
+
+AccountUsername: '',
+
+AccounttUserID: ''
+
+},
+
+
+
+zoneAPI: {
+
+baseURL: 'https://api.premiumzone.com/v1',
+
+key: ''
+
+}
+
+};
